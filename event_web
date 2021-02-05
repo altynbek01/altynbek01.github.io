@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                background-color:rgb(161, 178, 245);
+            }
+            .pos1{
+               float:left;
+               margin-left:60px;
+            }
+            .pos2{
+               float:right;
+               margin-right:60px;
+            }
+            .pos3{
+               float:left;
+               margin-left:60px;
+               margin-top:40px;
+               margin-bottom:50px;
+            }
+            .pos4{
+               float:right;
+               margin-right:60px;
+               margin-top:40px;
+               margin-bottom:50px;
+            }
+            .mamals{
+                position:absolute;
+                left:115px;
+                top:118px;
+                
+                
+            }
+            .mamals:hover, .birds:hover, .reptiles:hover,
+            .fish:hover{
+                background-color:rgb(240, 53, 121);
+            }
+            .mamals:focus{
+                background-color:rgb(15, 219, 46);
+            }
+            .mamals_col{
+                color:rgb(3, 38, 176);
+            }
+            
+             .reptiles{
+                position:absolute;
+                right:129px;
+                top:118px;
+                
+            }
+            .reptile_col{
+                color:rgb(191, 184, 49);
+            }
+             .birds{
+                position:absolute;
+                left:138px;
+                top:382px;
+                
+                
+            }
+            .bird_col{
+                color:rgb(255, 76, 31);
+            }
+             .fish{
+                position:absolute;
+                right:150px;
+                top:382px;
+                
+            }
+            .fish_col{
+                color:rgb(73, 194, 43);
+            }
+            .paragraph{
+                background:rgb(240, 240, 206);
+                font-family:sans-serif;
+                width:55%;
+                height:100px;
+                overflow-y:auto;
+                overflow-x:hidden;
+            }
+            #pointer1,#pointer2,#pointer3,#pointer4{
+                text-align:center;
+            }
+            .tables{
+                position:absolute;
+                right:37px;
+                font-family:cursive;
+            }
+            #table1{
+                position:absolute;
+                top:760px;
+            }
+            #table2{
+                position:absolute;
+                top:1175px;
+            }
+            #table3{
+                position:absolute;
+                top:1589px;
+            }
+            #table4{
+                position:absolute;
+                top:2001px;
+            }
+            #pic_pos1{
+                position:absolute;
+                top:809px;
+            }
+            #pic_pos2{
+                top:1223px;
+            }
+            #pic_pos3{
+                top:1641px;
+            }
+            #pic_pos4{
+                top:2058px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>ANIMAL TYPES</h1>
+        <h2></h2>
+        
+        <p>The details:</p>
+        <ul>
+            <li>
+                Ch1
+            </li>
+        </ul>
+        <h2>
+            <a href="#pointer1"> <span class="mamals mamals_col"> Mammals </span></a>
+            
+            
+            <a href="#pointer2"><span class="birds bird_col">Birds</span> </a> 
+            
+            
+            <a href="#pointer3"><span class="reptiles reptile_col">Rertiles</span></a>
+            <a href="#pointer4"><span class="fish fish_col">Fish</span></a>
+        </h2>
+        <img class="pos1 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/330px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg" alt="Mammals" width="200" height="225" >
+        
+        <img class="pos2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/PikiWiki_Israel_37648_Nature_and_Colors.jpg/330px-PikiWiki_Israel_37648_Nature_and_Colors.jpg" alt="reptiles" width="200" height="225" > 
+         <img class="pos3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brown_Bluff-2016-Tabarin_Peninsula%E2%80%93Gentoo_penguin_%28Pygoscelis_papua%29_03.jpg/902px-Brown_Bluff-2016-Tabarin_Peninsula%E2%80%93Gentoo_penguin_%28Pygoscelis_papua%29_03.jpg" alt="birds" width="200" height="225" >
+         <img class="pos4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Georgia_Aquarium_-_Giant_Grouper_edit.jpg/800px-Georgia_Aquarium_-_Giant_Grouper_edit.jpg" alt="fish" width="200" height="225">
+         <h3 class="mamals_col" id="pointer1">
+             Mammals
+         </h3>
+         <ol>
+             Dolphin
+         </ol>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/330px-Tursiops_truncatus_01.jpg" width="300" height="200">
+         <table class="tables" id="table1">
+            <thead>
+             <tr>
+                 <th>Habitat</th>
+                 <th>Weight
+                 <th>Class
+             </tr>
+         </thead>
+             <tbody>
+                 <tr>
+                     <td>All seas
+                     <td> 60-130 kg
+                     <td> mammal
+                         
+                     
+                 </tr>
+             </tbody>
+         </table>
+         <p class="paragraph">
+             Dolphin is a common name of aquatic mammals within the infraorder Cetacea. The term dolphin usually refers to the extant families Delphinidae (the oceanic dolphins), Platanistidae (the Indian river dolphins), Iniidae (the New World river dolphins), and Pontoporiidae (the brackish dolphins), and the extinct Lipotidae (baiji or Chinese river dolphin). There are 40 extant species named as dolphins.
+         </p>
+                  <img class="tables" id="pic_pos1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/NMMP_dolphin_with_locator.jpeg/255px-NMMP_dolphin_with_locator.jpeg" width="202" height="277">
+         
+         <h3 class="reptile_col" id="pointer3">
+             Reptiles
+         </h3>
+         <ol>
+             Crocodile<br>
+             
+         </ol>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Pangil_Crocodile_Park_Davao_City.jpg/330px-Pangil_Crocodile_Park_Davao_City.jpg" width="300" height="200">
+         <table class="tables" id="table2">
+            <thead>
+             <tr>
+                 <th>Habitat</th>
+                 <th>Weight
+                 <th>Class
+             </tr>
+         </thead>
+             <tbody>
+                 <tr>
+                     <td>Tropicals
+                     <td> 60-405 kg
+                     <td> reptile
+                         
+                     
+                 </tr>
+             </tbody>
+         </table>
+         <p class="paragraph"> Crocodiles (subfamily Crocodylinae) or true crocodiles are large semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia. Crocodylinae, all of whose members are considered true crocodiles, is classified as a biological subfamily. A broader sense of the term crocodile, Crocodylidae (which includes Tomistoma), is not used in this article. The term crocodile here applies to only the species within the subfamily of Crocodylinae. </p>
+         <img class="tables" id="pic_pos2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Crocodylus_acutus_mexico_01.jpg/330px-Crocodylus_acutus_mexico_01.jpg" width="199" height="280">
+         
+         <h3 class="bird_col" id="pointer2">
+         
+             Birds
+         </h3>
+         <ol>
+             Shoebill<br>
+            
+         </ol>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan_-upper_body-8a.jpg/330px-Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan_-upper_body-8a.jpg" width="300" height="200">
+         <table class="tables" id="table3">
+            <thead>
+             <tr>
+                 <th>Habitat</th>
+                 <th>Weight
+                 <th>Class
+             </tr>
+         </thead>
+             <tbody>
+                 <tr>
+                     <td>Tanzania
+                     <td> 30-165 kg
+                     <td> bird
+                         
+                     
+                 </tr>
+             </tbody>
+         </table>
+         
+         <p class="paragraph">The shoebill (Balaeniceps rex) also known as whalehead, whale-headed stork, or shoe-billed stork, is a very large stork-like bird. It derives its name from its enormous shoe-shaped bill. It has a somewhat stork-like overall form and has previously been classified with the storks in the order Ciconiiformes based on this morphology. However, genetic evidence places it with the Pelecaniformes. The adult is mainly grey while the juveniles are browner. It lives in tropical east Africa in large swamps from South Sudan to Zambia.</p>
+         <img class="tables" id="pic_pos3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Balaeniceps_rex.jpg/330px-Balaeniceps_rex.jpg" width="187" height="275">
+         <h3 class="fish_col" id="pointer4">
+         
+             Fish
+         </h3>
+         <ol>
+             Shark<br>
+             
+         </ol>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Male_whale_shark_at_Georgia_Aquarium.jpg/330px-Male_whale_shark_at_Georgia_Aquarium.jpg" width="300" height="200">  <table class="tables" id="table4">
+            <thead>
+             <tr>
+                 <th>Habitat</th>
+                 <th>Weight
+                 <th>Class
+             </tr>
+         </thead>
+             <tbody>
+                 <tr>
+                     <td>All seas
+                     <td> 60-1035 kg
+                     <td> fish
+                         
+                     
+                 </tr>
+             </tbody>
+         </table>
+         <p class="paragraph">Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the clade Selachimorpha (or Selachii) and are the sister group to the rays. However, the term "shark" has also been used for extinct members of the subclass Elasmobranchii outside the Selachimorpha, such as Cladoselache and Xenacanthus, as well as other Chondrichthyes such as the holocephalid eugenedontidans</p>
+         <img class="tables" id="pic_pos4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Surfacing_great_white_shark.jpg/330px-Surfacing_great_white_shark.jpg" width="187" height="271">
+         
+         
+        
+        
+    </body>
+</html>

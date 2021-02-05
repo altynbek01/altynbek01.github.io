@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+        background-color:rgb(190, 190, 232);}
+        #recipe1{
+            color:rgb(222, 79, 27);
+        }
+        #recipe2{
+            color:rgb(71, 156, 28);
+        }
+        #recipe3{
+            color:rgb(179, 45, 99);
+        }
+        .text{
+            color:rgb(94, 68, 64);
+            background-color:rgb(232, 221, 105);
+        }
+        thead{
+            color:rgb(0, 107, 156);
+        }
+        td{
+            color:rgb(126, 207, 20);
+            background-color:rgb(10, 6, 110);
+        }
+        </style>
+    </head>
+    <body>
+        <!--Recipe book's name-->
+        <h1>Mom's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#recipe1">Biscuit pie</a></li>
+            <li><a href="#recipe2">Pizza</a></li>
+            <li><a href="#recipe3">Beshbarmak</a></li>
+        </ol>
+        
+        <h2 id="recipe1">Biscuit pie</h2>
+        <a> <p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sponge_cake.jpg/411px-Sponge_cake.jpg" alt="biscuit" width="400"> <br>Image of biscuit
+        </p></a>
+        
+        <ul>
+            <li>Complexity:easy</li>
+            <li>Time consuming:1.5 hours</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>eggs
+                    <td>6
+                </tr>
+                <tr>
+                    <td>flour
+                    <td>300 gr
+                </tr>
+                <tr>
+                    <td>sugar
+                    <td>250 gr
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="text"><strong> Pie </strong>is a baked dish which is usually made of a pastry dough casing that contains a filling of various sweet or savoury ingredients. Sweet pies may be filled with fruit (as in an apple pie), nuts (pecan pie), brown sugar (sugar pie) or sweetened vegetables (rhubarb pie). Savoury pies may be filled with meat (as in a steak pie or a Jamaican patty), eggs and cheese (quiche) or a mixture of meat and vegetables (pot pie).<br>
+
+Pies are defined by their crusts. A filled pie (also single-crust or bottom-crust), has pastry lining the baking dish, and the filling is placed on top of the pastry but left open. A top-crust pie has the filling in the bottom of the dish and is covered with a pastry or other covering before baking. A two-crust pie has the filling completely enclosed in the pastry shell. Shortcrust pastry is a typical kind of pastry used for pie crusts, but many things can be used, including baking powder biscuits, mashed potatoes, and crumbs.
+</p>
+        
+    
+    <h2 id="recipe2">Pizza</h2>
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/330px-Eq_it-na_pizza-margherita_sep2005_sml.jpg" width="400"> 
+     <ul>
+            <li>Complexity:middle</li>
+            <li>Time consuming:2 hours</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>cheese
+                    <td>350 gr
+                </tr>
+                <tr>
+                    <td>flour
+                    <td>300 gr
+                </tr>
+                <tr>
+                    <td>tomatoes
+                    <td>9
+                </tr>
+            </tbody>
+        </table>
+         
+        <p class="text"><strong> Pizza </strong> (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.<br>
+
+In Italy, pizza served in formal settings, such as at a restaurant, is presented unsliced, and is eaten with the use of a knife and fork.[2][3] In casual settings, however, it is cut into wedges to be eaten while held in the hand.
+</p>
+ 
+        <h2 id="recipe3">Beshbarmak</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kazakh_cuisine_Besjbarmak.jpg/488px-Kazakh_cuisine_Besjbarmak.jpg" alt="beshmarmak" width="400">
+        
+        <ul>
+            <li>Complexity:hard</li>
+            <li>Time consuming:3 hours</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>meat
+                    <td>3 kg
+                </tr>
+                <tr>
+                    <td>flour
+                    <td>450 gr
+                </tr>
+                <tr>
+                    <td>potatoes
+                    <td>12
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="text"><strong> Beshbarmak</strong> (Kazakh: бешбармак — "five finger") is the national dish among nomadic Turkic peoples in Central Asia and Russia. It is also known as naryn in Xinjiang, Uzbekistan, Kyrgyzstan and Kazakhstan, as turama or dograma in Karakalpakstan, North Caucasus and Turkmenistan, and as kullama in Bashkortostan and Tatarstan.
+
+The term beshbarmak means "five fingers[1]", because nomads traditionally eat this dish with their hands. Beshbarmak is usually made from finely chopped boiled meat, mixed with noodles and chyk, an onion sauce. It is typically served on large communal platters, shared between several people,[2] after shorpo, which is a first course of mutton broth served in bowls called kese.[citation needed] It is also followed by a broth called ak-serke[3] (shorpo mixed with kymyz or ayran), which is thought to help with settling the stomach.[4] Festive beshbarmak can be cooked together with kazy and chuchuk.
+</p>
+    <p><em>Source: <a href="https://en.wikipedia.org/wiki/Pie">Wikipedia</a></em></p>
+        
+    </body>
+</html>

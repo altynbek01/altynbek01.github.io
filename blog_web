@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <style>
+        h1{
+            text-align:center;
+            color:rgb(0, 0, 199);
+        }
+        h2{
+            font-size:1.3em;
+            font-family:sans-serif;
+            text-align:center;
+            
+        }
+        body{
+            font-family:serif;
+            font-size:15px;
+            font-style:italic;
+            background-color:rgb(240, 236, 228);
+        }
+        .date{
+            color:rgb(93, 83, 242);
+            text-decoration:underline;
+            text-align:right;
+        }
+        #first{
+            color:rgb(219, 191, 9);
+        }
+        #second{
+            color:rgb(245, 102, 84);
+        }#third{
+            color:rgb(11, 217, 18);
+        }
+    </style>
+    
+    <body>
+        
+        <h1>My blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#first">First post!</a> </li>
+            <li><a href="#second"> Second post! </a> </li>
+            <li><a href="#third"> Third post!</a> </li>
+        </ul>
+        
+        <h2 id="first">First post</h2>
+        <h6 class="date">30.01.2021</h6>
+        
+        <p>Today I opened the world of web programming.Hope to reach a lot of success</p>
+        
+        
+        <h2 id="second">Second post</h2>
+        <h6 class="date">31.01.2021</h6>
+        
+        <p>Today I got basic knowledges of Html and CSS.</p>
+        
+        
+        <h2 id="third">Third post</h2>
+        <h6 class="date">01.02.2021</h6>
+        
+        <p>Today I met with different properties of Html</p>
+        
+        
+        
+    </body>
+</html>
